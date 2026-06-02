@@ -1,0 +1,223 @@
+{
+  "seo": {
+    "title": "Studio Smit",
+    "description": "Studio Smit - tatuajes personalizados con reserva previa en Cordoba."
+  },
+  "business": {
+    "name": "Studio Smit",
+    "type": "Estudio de tatuajes",
+    "subtitle": "Tatuajes personalizados con reserva previa",
+    "description": "Disenos unicos, lineas limpias y turnos organizados para que tu proxima pieza salga como corresponde.",
+    "logo": "",
+    "heroImage": "assets/img/hero.svg"
+  },
+  "theme": {
+    "selectedPalette": "inkYellow",
+    "palettes": [
+      {
+        "id": "inkYellow",
+        "name": "Ink Yellow",
+        "description": "Negro profundo con amarillo fuerte. Ideal para tattoo, barberia o marcas urbanas.",
+        "primaryColor": "#ffd000",
+        "backgroundColor": "#050505",
+        "surfaceColor": "#111111",
+        "textColor": "#ffffff",
+        "mutedTextColor": "#b8b8b8",
+        "buttonTextColor": "#050505",
+        "borderColor": "rgba(255, 255, 255, 0.12)",
+        "shadowColor": "rgba(0, 0, 0, 0.35)"
+      },
+      {
+        "id": "warmBarber",
+        "name": "Warm Barber",
+        "description": "Verde oscuro, crema y dorado suave. Profesional, calido y clasico.",
+        "primaryColor": "#d6a84f",
+        "backgroundColor": "#101712",
+        "surfaceColor": "#1a241d",
+        "textColor": "#fff7e8",
+        "mutedTextColor": "#c7bda8",
+        "buttonTextColor": "#101712",
+        "borderColor": "rgba(255, 247, 232, 0.13)",
+        "shadowColor": "rgba(0, 0, 0, 0.32)"
+      },
+      {
+        "id": "softBeauty",
+        "name": "Soft Beauty",
+        "description": "Rosa suave, fondo claro y texto calido. Limpio, delicado y femenino.",
+        "primaryColor": "#e88da8",
+        "backgroundColor": "#fff7fa",
+        "surfaceColor": "#ffffff",
+        "textColor": "#2d2027",
+        "mutedTextColor": "#7b6470",
+        "buttonTextColor": "#ffffff",
+        "borderColor": "rgba(45, 32, 39, 0.12)",
+        "shadowColor": "rgba(116, 60, 83, 0.15)"
+      },
+      {
+        "id": "activeBlue",
+        "name": "Active Blue",
+        "description": "Azul oscuro con naranja energetico. Ideal para deporte, fitness y entrenamiento.",
+        "primaryColor": "#ff7a1a",
+        "backgroundColor": "#080b12",
+        "surfaceColor": "#121826",
+        "textColor": "#f8fafc",
+        "mutedTextColor": "#aab4c3",
+        "buttonTextColor": "#080b12",
+        "borderColor": "rgba(248, 250, 252, 0.12)",
+        "shadowColor": "rgba(0, 0, 0, 0.36)"
+      },
+      {
+        "id": "clinicCalm",
+        "name": "Clinic Calm",
+        "description": "Verde agua, fondo claro y texto profundo. Transmite calma, orden y confianza.",
+        "primaryColor": "#2bb3a3",
+        "backgroundColor": "#f4fbfa",
+        "surfaceColor": "#ffffff",
+        "textColor": "#102a2a",
+        "mutedTextColor": "#607878",
+        "buttonTextColor": "#ffffff",
+        "borderColor": "rgba(16, 42, 42, 0.12)",
+        "shadowColor": "rgba(21, 91, 85, 0.14)"
+      },
+      {
+        "id": "minimalMono",
+        "name": "Minimal Mono",
+        "description": "Blanco, negro y grises suaves. Minimalista, sobrio y adaptable.",
+        "primaryColor": "#111111",
+        "backgroundColor": "#f6f6f3",
+        "surfaceColor": "#ffffff",
+        "textColor": "#111111",
+        "mutedTextColor": "#686868",
+        "buttonTextColor": "#ffffff",
+        "borderColor": "rgba(17, 17, 17, 0.12)",
+        "shadowColor": "rgba(0, 0, 0, 0.12)"
+      }
+    ]
+  },
+  "sections": {
+    "booking": true,
+    "promotions": true,
+    "gallery": true,
+    "contact": true
+  },
+  "ui": {
+    "navigation": {
+      "booking": "Turnos",
+      "promotions": "Promos",
+      "gallery": "Trabajos",
+      "contact": "Contacto"
+    },
+    "hero": {
+      "primaryCta": "Reservar turno",
+      "secondaryCta": "Ver trabajos"
+    },
+    "sections": {
+      "bookingEyebrow": "Agenda",
+      "promotionsEyebrow": "Promos",
+      "promotionsTitle": "Promociones",
+      "galleryEyebrow": "Portfolio",
+      "galleryTitle": "Trabajos realizados",
+      "contactEyebrow": "Consultas"
+    },
+    "bookingMessages": {
+      "default": "Selecciona un horario para continuar.",
+      "empty": "Primero elegi un horario disponible.",
+      "selectedPrefix": "Horario seleccionado:",
+      "noSlots": "No hay horarios disponibles por el momento. Escribinos por WhatsApp para consultar.",
+      "calendar": "Los horarios y confirmaciones se gestionan desde el calendario externo.",
+      "external": "La reserva se completa desde el formulario o agenda externa."
+    },
+    "contactLabels": {
+      "whatsapp": "WhatsApp",
+      "instagram": "Instagram",
+      "email": "Email",
+      "phone": "Telefono",
+      "location": "Ubicacion"
+    }
+  },
+  "booking": {
+    "enabled": true,
+    "mode": "whatsapp",
+    "title": "Reserva tu turno",
+    "description": "Elegi un horario disponible. Este turnero es ficticio para la demo de la plantilla.",
+    "buttonLabel": "Confirmar consulta",
+    "calendarUrl": "https://calendar.google.com/calendar/appointments/schedules/DEMO",
+    "externalUrl": "",
+    "whatsappMessage": "Hola, quiero consultar por un turno en {businessName} para el {date} a las {time}.",
+    "slots": [
+      {
+        "date": "Martes 18",
+        "times": ["12:00", "14:30", "17:00"]
+      },
+      {
+        "date": "Miercoles 19",
+        "times": ["11:00", "15:00", "18:30"]
+      },
+      {
+        "date": "Viernes 21",
+        "times": ["13:00", "16:00", "19:00"]
+      }
+    ]
+  },
+  "promotions": [
+    {
+      "title": "Flash Day",
+      "description": "Disenos seleccionados con precio especial durante la semana.",
+      "price": "Desde $25.000"
+    },
+    {
+      "title": "Mini tattoos",
+      "description": "Tatuajes pequenos en linea fina. Ideal para primera pieza.",
+      "price": "Consultar"
+    },
+    {
+      "title": "Diseno personalizado",
+      "description": "Trae tu idea y la adaptamos a tu estilo.",
+      "price": "Con sena previa"
+    }
+  ],
+  "gallery": [
+    {
+      "title": "Blackwork brazo",
+      "category": "Blackwork",
+      "image": "assets/img/tattoo-01.svg"
+    },
+    {
+      "title": "Fine line",
+      "category": "Minimalista",
+      "image": "assets/img/tattoo-02.svg"
+    },
+    {
+      "title": "Diseno floral",
+      "category": "Linea fina",
+      "image": "assets/img/tattoo-03.svg"
+    },
+    {
+      "title": "Tradicional",
+      "category": "Old school",
+      "image": "assets/img/tattoo-04.svg"
+    },
+    {
+      "title": "Lettering",
+      "category": "Letras",
+      "image": "assets/img/tattoo-05.svg"
+    },
+    {
+      "title": "Diseno anime",
+      "category": "Anime",
+      "image": "assets/img/tattoo-06.svg"
+    }
+  ],
+  "contact": {
+    "title": "Contacto",
+    "whatsapp": "https://wa.me/5493510000000",
+    "instagram": "https://instagram.com/studiosmit",
+    "email": "",
+    "phone": "",
+    "address": "Cordoba, Argentina",
+    "mapUrl": "https://maps.google.com"
+  },
+  "footer": {
+    "text": "Studio Smit - Plantilla reutilizable para negocios con turnos"
+  }
+}

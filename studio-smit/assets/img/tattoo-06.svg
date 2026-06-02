@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Diseño anime">
+  <rect width="640" height="480" fill="#050505"/>
+  <rect x="34" y="34" width="572" height="412" rx="24" fill="#111111" stroke="#ffd000" stroke-width="4"/>
+  <path d="M247 147c31-41 103-50 151-13 55 42 52 128-5 174-46 37-116 30-152-17-32-42-29-102 6-144z" fill="none" stroke="#fff" stroke-width="10"/>
+  <path d="M226 203c49-10 90-35 122-75 14 45 42 75 84 91" fill="none" stroke="#ffd000" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="290" cy="242" r="11" fill="#ffd000"/>
+  <circle cx="371" cy="242" r="11" fill="#ffd000"/>
+  <path d="M298 298c20 13 42 13 65 0" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+</svg>
