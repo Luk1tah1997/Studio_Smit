@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Diseño floral">
+  <rect width="640" height="480" fill="#050505"/>
+  <rect x="34" y="34" width="572" height="412" rx="24" fill="#111111" stroke="#ffd000" stroke-width="4"/>
+  <path d="M320 156v184" stroke="#fff" stroke-width="9" stroke-linecap="round"/>
+  <ellipse cx="278" cy="196" rx="34" ry="65" transform="rotate(-35 278 196)" fill="none" stroke="#ffd000" stroke-width="8"/>
+  <ellipse cx="365" cy="198" rx="34" ry="65" transform="rotate(35 365 198)" fill="none" stroke="#ffd000" stroke-width="8"/>
+  <ellipse cx="283" cy="282" rx="25" ry="52" transform="rotate(42 283 282)" fill="none" stroke="#fff" stroke-width="7"/>
+  <ellipse cx="361" cy="282" rx="25" ry="52" transform="rotate(-42 361 282)" fill="none" stroke="#fff" stroke-width="7"/>
+</svg>
